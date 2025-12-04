@@ -19,3 +19,18 @@ console.log();
 console.log(NaN == NaN);
 console.log(0 == false);   
 console.log(0 == null);
+
+
+//Comparison Operators List
+//There are many comparison operators as shown in the table with the description.
+
+OPERATOR NAME                    USAGE                       OPERATION
+
+Equality Operator                a == b           Compares the equality of two operators
+Inequality Operator         	   a != b	          Compares inequality of two operators
+Strict Equality Operator	       a === b        	Compares both the value and type of the operand
+Strict Inequality Operator	     a !== b        	Compares inequality with type
+Greater than Operator       	   a > b	          Checks if the left operator is greater than the right operator
+Greater than or equal Operator 	 a >= b          	Checks if the left operator is greater than or equal to the right operator
+Less than Operator	             a < b          	Checks if the left operator is smaller than the right operator
+Less than or equal Operator	     a <= b	          Checks if the left operator is smaller than or equal to the right operator
