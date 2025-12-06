@@ -1,0 +1,29 @@
+// The nullish coalescing (??) operator is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand. It's commonly used to provide default values for variables.
+
+//Syntax:variable ?? default_value
+
+function foo(bar) { 
+    bar = bar ?? 55; 
+    console.log(bar); 
+} 
+foo(); // 55 
+foo(22); // 22
+
+
+
+//The more common use case is to set default values for JSON objects as follows. 
+
+
+const foo = { 
+    bar: 0 
+}  T
+
+const valueBar = foo.bar ?? 52; 
+const valueBaz = foo.baz ?? 52; 
+
+// Value of bar: 0 
+console.log("Value of bar: ", valueBar); 
+
+// Value of bar: 42 
+console.log("Value of baz: ", valueBaz);
+
