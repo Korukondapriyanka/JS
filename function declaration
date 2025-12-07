@@ -1,0 +1,13 @@
+// Function Declaration or Function Statement
+
+function greetMessage(name, city)        // name is called as a parameter
+{      
+    console.log(`${name}, welcome to DIET`);
+    console.log(`Thank you for joining from ${city}`)
+}
+
+
+//Calling the function
+greetMessage("Priya", "vizag");        // Priya is called as an argument
+greetMessage("vag", "hydrabad");
+greetMessage("reena");
