@@ -1,0 +1,9 @@
+
+let anonymousFunction = function greetMessage (){
+    console.log("Hello"); // hello 
+    console.log(typeof greetMessage) // function
+}
+
+console.log(typeof anonymousFunction); // function
+
+anonymousFunction();
