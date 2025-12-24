@@ -1,0 +1,10 @@
+const displayMessage = "Hello everyone!";
+const index = 9;
+const char = displayMessage.charAt(index);
+
+// console.log(char);
+
+// ASCII
+
+const asciiCode = displayMessage.charCodeAt(index);
+console.log(`The acsii code of ${char} is ${asciiCode}`)
